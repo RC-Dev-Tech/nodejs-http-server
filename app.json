@@ -1,0 +1,6 @@
+{
+    "environment" : "DEV",
+    "portal" : {
+        "port" : 3001
+    }
+}
