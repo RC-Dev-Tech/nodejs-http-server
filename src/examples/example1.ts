@@ -9,10 +9,6 @@ export class Example1 extends IExample {
 
         var app = express()
 
-        app.use(express.urlencoded({
-            extended: false
-         }))
-
         app.get('/', function (req, res) {
            res.send('Hello World!')
         })

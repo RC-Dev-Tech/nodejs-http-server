@@ -9,10 +9,12 @@ export class Example2 extends IExample {
 
         var app = express()
 
+        // using middleware.
         app.use(express.urlencoded({
             extended: false
          }))
 
+        // autocomplete 設定為 “off”，以避免瀏覽器自動填入資料.
         app.get('/', function (req, res) {
           res.send(`
             <form action="/answer" method="POST">
@@ -22,6 +24,7 @@ export class Example2 extends IExample {
             </form>`)
         })
 
+        // preferColor為Html在打Post的時候帶過來的參數.
         app.post('/answer', function (req, res) {
             if (req.body.preferColor == "紅色") {
                 res.send("答對了，你真暸解我")

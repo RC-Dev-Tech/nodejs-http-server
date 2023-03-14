@@ -11,6 +11,11 @@ export class NetWork {
     }
 
     public run(example: IExample ) {
+       if(example === null || undefined) {
+         console.log(`run example error!`);
+         return;
+       }
+
        example.run();
     }
 }
