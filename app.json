@@ -1,5 +1,5 @@
 {
-    "environment" : "DEV",
+    "exsample_mode" : 1,
     "portal" : {
         "port" : 3001
     }

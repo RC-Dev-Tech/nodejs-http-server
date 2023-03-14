@@ -1,18 +1,23 @@
 import { Config } from "./config"
+import { IExample } from "./core/base";
 import { NetWork } from "./core/network"
-import { Logger } from "./common/logger"
+import { Example2 } from "./examples/example2";
 
 export class App {
-    private env : string = "";
+    private exsample_mode: number = -1;
 
-    constructor ()
-    {
-      const env = Config.getInstance().getParam ("environment");
-      this.env = env;
+    constructor () {
+      this.exsample_mode = Config.getInstance().getParam ("exsample_mode");
     }
 
-    async run () {
-      Logger.Info(`App-Env Run ${this.env} Version.`)
-      NetWork.getInstance().run();
+    run () {
+      var example: IExample = null;
+      switch(this.exsample_mode) {
+        case 1: example = new Example2(); break;
+      }
+
+      if(example) {
+        NetWork.getInstance().run(example);
+      }
     }
 }

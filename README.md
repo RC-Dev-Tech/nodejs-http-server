@@ -1,13 +1,34 @@
-# install npm.
->> npm install --save
-# build code
->> tsc or npm run build
+# ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - Express 入門學習
+> ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
-if you want auto build, you can using
->> tsc --w or npm run run:auto-build
+<br>
 
-# run
->> npm run run:start
+<!--ts-->
+## 目錄
+* [操作說明](#操作說明)
+* [切換範例](#切換範例)
+* [參考資料](#參考資料)
+<!--te-->
 
-if you want auto build and run , you can using
->> npm run start
+---
+<br>
+
+## 操作說明.
+#### 1. 安裝套件
+> npm install --save
+#### 2. 編譯 & 運行
+> npm run start
+
+---
+<br>
+
+## 切換範例
+> 編輯在app.json中的"exsample_mode"，填入的數字代表第幾個範例.
+
+---
+<br>
+
+## 參考資料
+* [Example1 - Hello world example](https://expressjs.com/en/starter/hello-world.html) <br>
+* [Example2 - 從一個實例看Express 的運作方式](https://medium.com/web-design-zone/%E5%BE%9Enode-js-%E5%BE%9E%E4%B8%80%E5%80%8B%E5%AF%A6%E4%BE%8B%E7%9C%8Bexpress-%E7%9A%84%E9%81%8B%E4%BD%9C%E6%96%B9%E5%BC%8F-7c61cdd477f5) <br>
+* [Example3 - 路由設計](https://ithelp.ithome.com.tw/articles/10307712) <br>
