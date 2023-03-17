@@ -14,7 +14,9 @@ export class Example2 extends IExample {
             extended: false
          }))
 
+        // 藉由簡單的html語法，按下按鈕後將preferColor的參數帶出去.
         // autocomplete 設定為 “off”，以避免瀏覽器自動填入資料.
+        // test url: http://localhost:3001/
         app.get('/', function (req, res) {
           res.send(`
             <form action="/answer" method="POST">

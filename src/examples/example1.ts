@@ -9,6 +9,8 @@ export class Example1 extends IExample {
 
         var app = express()
 
+        // 基本用法.
+        // test url: http://localhost:3001/
         app.get('/', function (req, res) {
            res.send('Hello World!')
         })

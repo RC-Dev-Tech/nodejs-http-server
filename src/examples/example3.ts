@@ -11,7 +11,7 @@ export class Example3 extends IExample {
 
         // 使用 params 取得指定路徑的參數.
         // 如果是用params的方式去定義參數的時候，其Url就一定要輸入對應的參數，不然會找不到網址.
-        // using url: http://localhost:3001/page/ricky
+        // test url: http://localhost:3001/page/ricky
         app.get('/page/:name/:other_params', function (request, response) {
             let params = request.params.name;
             let other_params = request.params.other_params;
@@ -27,7 +27,7 @@ export class Example3 extends IExample {
 
         // 透過 query 取得網址參數.
         // 如果是透過query的方式去定義參數，其Url在帶入參數的時候，不一地要帶入全部.
-        // using url: http://localhost:3001/page2/ricky?limit=99&key_name=Orz
+        // test url: http://localhost:3001/page2/ricky?limit=99&key_name=Orz
         app.get("/page2/:name", (request, response) => {
             let params = request.params.name;
             let limit = request.query.limit;
