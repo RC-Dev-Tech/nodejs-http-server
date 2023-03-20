@@ -9,6 +9,7 @@
 * [操作說明](#操作說明)
 * [切換範例](#切換範例)
 * [參考資料](#參考資料)
+* [備註](#備註)
 <!--te-->
 
 ---
@@ -48,15 +49,15 @@
 ---
 <br>
 
-## 備註：
-
-[^1]: 在這個範例中我們需要安裝express，指令如下：<br>
-`npm install express —-save` <br>
-因為express這個套件已經有被安裝並整合在package.json中，所以這邊直接下npm install -ssave的指令就好
+<!--ts-->
+## [回到目錄](#目錄)
+<!--te-->
 
 ---
 <br>
 
-<!--ts-->
-## [回到目錄](#目錄)
-<!--te-->
+## 備註：
+
+[^1]: 在這個範例中我們需要安裝express，指令如下：<br>
+`npm install express —-save` <br>
+因為這個套件已經有被安裝並整合在package.json中，所以這邊直接下npm install --save的指令就好
