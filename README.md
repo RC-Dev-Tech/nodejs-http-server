@@ -22,8 +22,8 @@
 <br>
 
 ## 操作說明.
-#### 1. 安裝套件
-> npm install --save [^1]
+#### 1. 安裝套件 [^1]
+> npm install --save
 
 #### 2. 編譯 & 運行
 > npm run start
@@ -47,12 +47,9 @@
 * [RUNOOB - Node.js Express框架](https://www.runoob.com/nodejs/nodejs-express-framework.html) <br>
 
 ---
-<br>
-
 <!--ts-->
-## [回到目錄](#目錄)
+#### [目錄 ↩](#目錄)
 <!--te-->
-
 ---
 <br>
 
