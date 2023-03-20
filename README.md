@@ -22,7 +22,7 @@
 
 ## 操作說明.
 #### 1. 安裝套件
-> npm install --save [^備註1]
+> npm install --save [^1]
 
 #### 2. 編譯 & 運行
 > npm run start
@@ -37,7 +37,7 @@
 <br>
 
 ## 備註：
-[^備註1] 這個範例我們需要安裝express，指令如下：
+[^1]: 這個範例我們需要安裝express，指令如下：
 `npm install express —-save` <br>
 因為express這個套件已經有被安裝並整合在package.json中，所以這邊直接下npm install -ssave的指令就好
 
