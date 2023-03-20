@@ -54,5 +54,5 @@
 ## 備註：
 
 [^1]: 在這個範例中我們需要安裝express，指令如下：<br>
-`npm install express —-save` <br>
-因為這個套件已經有被安裝並整合在package.json中，所以這邊直接下npm install --save的指令就好
+`npm install express` <br>
+因為這個套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好
