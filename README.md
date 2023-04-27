@@ -18,7 +18,7 @@
 <br>
 
 ## 簡介.
-針對nodejs在使用express實作一些入門的範例.
+針對nodejs在使用express實作一些入門的範例.<br>
 <br>
 
 實作範例:
@@ -70,6 +70,6 @@
 
 [^1]: 在這個範例中我們需要安裝express，指令如下：<br>
 `npm install express --save` <br>
-因為這些套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好<br>
+因為這些套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好
 [^2]: Express4 不在內建一些插件，而basicAuth就是其中之一. <br>
-其他方案 - [express-basic-auth](https://www.npmjs.com/package/express-basic-auth) <br>
+其他方案 - [express-basic-auth](https://www.npmjs.com/package/express-basic-auth)
