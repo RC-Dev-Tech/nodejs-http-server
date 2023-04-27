@@ -25,7 +25,7 @@
 - [Example1 - Hello world example](https://expressjs.com/en/starter/hello-world.html) <br>
 - [Example2 - 從一個實例看Express 的運作方式](https://medium.com/web-design-zone/%E5%BE%9Enode-js-%E5%BE%9E%E4%B8%80%E5%80%8B%E5%AF%A6%E4%BE%8B%E7%9C%8Bexpress-%E7%9A%84%E9%81%8B%E4%BD%9C%E6%96%B9%E5%BC%8F-7c61cdd477f5) <br>
 - [Example3 - 路由設計](https://ithelp.ithome.com.tw/articles/10307712) <br>
-- [Example4 - Middlware 觀念解說](https://www.jollen.org/blog/2013/11/expressjs-middleware.html)[^2] <br>
+- [Example4 - Middlware 觀念解說](https://www.jollen.org/blog/2013/11/expressjs-middleware.html)[^1] <br>
 
 ---
 <br>
@@ -37,7 +37,7 @@
 <br>
 
 ## 操作說明.
-#### 1. 安裝套件 [^1]
+#### 1. 安裝套件 [^2]
 > npm install --save
 
 #### 2. 編譯 & 運行
@@ -68,8 +68,9 @@
 ---
 ## 備註：
 
-[^1]: 在這個範例中我們需要安裝express，指令如下：<br>
+[^1]: Express4 不在內建一些插件，而basicAuth就是其中之一. <br>
+其他方案 - [express-basic-auth](https://www.npmjs.com/package/express-basic-auth)
+[^2]: 在這個範例中我們需要安裝express，指令如下：<br>
 `npm install express --save` <br>
 因為這些套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好
-[^2]: Express4 不在內建一些插件，而basicAuth就是其中之一. <br>
-其他方案 - [express-basic-auth](https://www.npmjs.com/package/express-basic-auth)
+
